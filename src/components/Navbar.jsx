@@ -19,8 +19,8 @@ const Navbar = () => {
           onClick={() => setToggle((prev) => !prev)} />
         <div className={`${toggle ? "flex" : "hidden"} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-0 min-w-[140px] rounded-xl sidebar`}>
           <ul className="flex flex-col justify-end items-end flex-1 items-center" >
-            {navLinks.map((nav) => (
-              <li key={nav.id} className={`font-poppins font-normal text-[16px] list-none cursor-pointer ml-4 mb-4 text-white`}>
+            {navLinks.map((nav,index) => (
+              <li key={nav.id} className={`font-poppins font-normal text-[16px] list-none cursor-pointer ${index === navLinks.length-1 ? 'mb-2' : 'mb-4' } text-white`}>
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
             ))}

@@ -1,8 +1,5 @@
-# React + Vite
+EAZY_BANKING
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a frontend of a website publishing the new easy banking system of Hoobank. This is responsive React JS application with vite & tailwind css, consisting of a stunning hero section, high-quality assets and gradients, business stats, reusable feature sections with call-to-action buttons, testimonials, and more!
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I'm still working on it adding some more features, in case of advice you can reachout to me on my linkedIn https://www.linkedin.com/in/bibwireyezu-patrick-b0b321272/
